@@ -71,6 +71,7 @@ java -cp out br.com.a3.gestaoprojetos.Main
 ```
 
 ###Como testar o sistema
+
 *Teste rápido com dados automáticos:*
 | Opção | O que faz                                          |
 |-------|----------------------------------------------------|
@@ -79,6 +80,7 @@ java -cp out br.com.a3.gestaoprojetos.Main
 | 10    | Gera relatório do projeto (informe o ID: 1)        |
 | 9     | Atualiza status de uma tarefa                      |
 | 8     | Atualiza status do projeto                         |
+
 *Teste manual completo:*
 1  → Cadastrar usuário
 3  → Cadastrar equipe
