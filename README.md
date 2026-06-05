@@ -58,13 +58,6 @@ src/
 
 ## Como executar
 
-### Compilar
-No terminal, dentro da pasta do projeto:
-
-```bash
-javac -d out $(find src -name "*.java")
-```
-
 ### Executar
 ```bash
 java -cp out br.com.a3.gestaoprojetos.Main
