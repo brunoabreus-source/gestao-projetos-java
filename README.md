@@ -58,6 +58,8 @@ src/
 
 ## Como executar
 
+No terminal, dentro da pasta do projeto:
+
 ### Executar
 ```bash
 java -cp out br.com.a3.gestaoprojetos.Main
