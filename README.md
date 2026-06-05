@@ -33,6 +33,29 @@ A proposta do projeto é auxiliar no controle de **projetos**, **equipes**, **us
 - Estrutura inspirada no padrão MVC
 - SQL (modelo de banco incluído no projeto)
 
+## Requisitos para execução
+
+Para compilar e executar o projeto corretamente, o ambiente deve possuir:
+
+- **Java JDK 17 ou superior**
+- comandos **`java`** e **`javac`** configurados no terminal
+- **terminal/prompt de comando** ou uma IDE Java, como IntelliJ IDEA, Eclipse ou NetBeans
+- sistema operacional compatível com Java, como **Windows, Linux ou macOS**
+
+### Observação importante
+
+A pasta `out` contém arquivos compilados e pode não funcionar em máquinas com versões diferentes do Java.  
+Por isso, o mais recomendado é **compilar o projeto a partir do código-fonte da pasta `src`** antes de executar.
+
+### Dependências
+
+Este projeto:
+
+- **não utiliza bibliotecas externas**
+- **não depende de framework**
+- **não exige banco de dados ativo para a execução atual**, pois funciona em **modo console** com armazenamento em memória
+
+
 ## Estrutura do projeto
 
 ```text
@@ -64,6 +87,22 @@ No terminal, dentro da pasta do projeto:
 ```bash
 java -cp out br.com.a3.gestaoprojetos.Main
 ```
+
+Caso a execução não funcione, apague a pasta out e siga as instruções de compilação.
+
+### Compilação e execução no Windows
+
+- `mkdir out`
+- `dir /s /b src\\*.java > sources.txt`
+- `javac -d out @sources.txt`
+- `java -cp out br.com.a3.gestaoprojetos.Main`
+
+### Compilação e execução no Linux
+
+- `mkdir -p out`
+- `find src -name "*.java" > sources.txt`
+- `javac -d out @sources.txt`
+- `java -cp out br.com.a3.gestaoprojetos.Main`
 
 ### Como testar o sistema
 
