@@ -1,7 +1,7 @@
 # Sistema de Gestão de Projetos e Equipes
 
 Projeto acadêmico desenvolvido para a atividade A3 da disciplina 
-*Programação de Soluções Computacionais* da *Universidade São Judas*.
+**Programação de Soluções Computacionais** da **Universidade São Judas**.
 
 ## Sobre o projeto
 
@@ -69,6 +69,29 @@ javac -d out $(find src -name "*.java")
 ```bash
 java -cp out br.com.a3.gestaoprojetos.Main
 ```
+
+###Como testar o sistema
+*Teste rápido com dados automáticos:*
+| Opção | O que faz                                          |
+|-------|----------------------------------------------------|
+| 11    | Carrega usuários, equipe, projeto e tarefas de exemplo |
+| 2     | Lista todos os usuários cadastrados                |
+| 10    | Gera relatório do projeto (informe o ID: 1)        |
+| 9     | Atualiza status de uma tarefa                      |
+| 8     | Atualiza status do projeto                         |
+*Teste manual completo:*
+1  → Cadastrar usuário
+3  → Cadastrar equipe
+4  → Adicionar membro na equipe
+5  → Cadastrar projeto
+6  → Alocar equipe no projeto
+7  → Cadastrar tarefa
+10 → Gerar relatório
+*Formatos importantes:*
+- Datas: AAAA-MM-DD (exemplo: 2026-06-05)
+- Perfil: 1 Administrador | 2 Gerente | 3 Colaborador
+- Status do projeto: 1 Planejado | 2 Em andamento | 3 Concluído | 4 Cancelado
+- Status da tarefa: 1 Pendente | 2 Em andamento | 3 Concluída | 4 Bloqueada
 
 ## Banco de dados
 
