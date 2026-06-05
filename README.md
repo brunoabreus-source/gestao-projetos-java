@@ -82,13 +82,13 @@ java -cp out br.com.a3.gestaoprojetos.Main
 | 8     | Atualiza status do projeto                         |
 
 *Teste manual completo:*
-1  → Cadastrar usuário
-3  → Cadastrar equipe
-4  → Adicionar membro na equipe
-5  → Cadastrar projeto
-6  → Alocar equipe no projeto
-7  → Cadastrar tarefa
-10 → Gerar relatório
+1  → Cadastrar usuário/n
+3  → Cadastrar equipe/n
+4  → Adicionar membro na equipe/n
+5  → Cadastrar projeto/n
+6  → Alocar equipe no projeto/n
+7  → Cadastrar tarefa/n
+10 → Gerar relatório/n
 *Formatos importantes:*
 - Datas: AAAA-MM-DD (exemplo: 2026-06-05)
 - Perfil: 1 Administrador | 2 Gerente | 3 Colaborador
